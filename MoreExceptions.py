@@ -1,0 +1,11 @@
+#Write your code here
+class Calculator():
+    def power(self,n,p):
+        #self.n =n
+        #self.p =p
+        #if self.n<0 or self.p<0:
+        if n<0 or p<0: 
+            raise Exception("n and p should be non-negative")
+        else:
+            #return self.n**self.p
+            return n**p
